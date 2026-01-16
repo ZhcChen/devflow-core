@@ -11,3 +11,12 @@ TEST-{id}.md
 ## 模板
 
 - `docs/templates/test.md`
+
+## 用例ID规则
+
+```
+TC-{id}-{seq}
+```
+
+- `id` 为 6 位任务编号，例如 `000001`
+- `seq` 为 3 位序号，例如 `001`
