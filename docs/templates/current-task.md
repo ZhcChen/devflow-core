@@ -1,5 +1,5 @@
 ---
-id: ""
+id: "" # 6 位自增编号，例如 000001
 name: ""
 stage: "需求分析"
 created_at: ""
@@ -9,6 +9,9 @@ next_action: ""
 artifacts:
   prd: ""
   spec: ""
+  dev: ""
+  review: ""
+  test: ""
 ---
 ## 任务摘要
 - 目标：

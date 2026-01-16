@@ -19,9 +19,11 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 
 # 产出物约定
 
-- PRD：`docs/requirements/PRD-{id}-{name}.md`
-- 技术方案：`docs/specs/SPEC-{id}-{name}.md`
-- 审查/测试报告：与具体项目约定一致
+- PRD：`docs/requirements/PRD-{id}.md`（含验收矩阵）
+- 技术方案：`docs/specs/SPEC-{id}.md`
+- 开发记录：`docs/development/DEV-{id}.md`
+- 审查报告：`docs/reviews/REVIEW-{id}.md`
+- 测试报告：`docs/tests/TEST-{id}.md`
 
 # 当前任务状态（单任务模式）
 
@@ -30,7 +32,7 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 - 启动时先检测 `docs/tmp/current.md`：存在则续接，不存在则新建任务
 - 阶段更新必须同步写入该文件（阶段、产出物路径、下一步）
 - 任务完成后删除整个 `docs/tmp/` 目录
-- 状态文档格式参考模板：`docs/templates/current-task.md`
+- 状态文档格式参考模板：`docs/templates/current-task.md`，任务 ID 使用 6 位自增数字（例如 `000001`）
 
 # 资源索引（按需读取）
 
