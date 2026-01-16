@@ -11,3 +11,10 @@ DEV-{id}.md
 ## 模板
 
 - [templates/dev.md](../templates/dev.md)
+
+## 必备内容
+
+- 关联文档（PRD/SPEC）
+- 实现映射（验收矩阵 → 实现）
+- 变更列表
+- 自测清单（对应验收矩阵）
