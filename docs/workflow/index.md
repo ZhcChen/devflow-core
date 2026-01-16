@@ -46,4 +46,4 @@ PM → [PRD确认] → Architect → [方案确认] → Developer → Reviewer �
 ## 确认节点要求
 
 - PRD确认：必须已有 PRD 文档并包含验收矩阵
-- 方案确认：必须已有技术方案文档
+- 方案确认：必须已有技术方案文档且满足必备内容（见 `docs/specs/`）
