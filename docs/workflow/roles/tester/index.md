@@ -14,8 +14,8 @@
 
 ## 输出
 
-- `docs/tests/TEST-{id}.md`
+- `TEST-{id}.md`（见 [tests/](../../../tests/)）
 
 ## 模板
 
-- `docs/templates/test.md`
+- [templates/test.md](../../../templates/test.md)

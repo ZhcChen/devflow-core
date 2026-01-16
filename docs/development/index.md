@@ -10,4 +10,4 @@ DEV-{id}.md
 
 ## 模板
 
-- `docs/templates/dev.md`
+- [templates/dev.md](../templates/dev.md)

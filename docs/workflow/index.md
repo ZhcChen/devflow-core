@@ -37,13 +37,13 @@ PM → [PRD确认] → Architect → [方案确认] → Developer → Reviewer �
 
 ## 产出物
 
-- PRD：`docs/requirements/PRD-{id}.md`
-- 技术方案：`docs/specs/SPEC-{id}.md`
-- 开发记录：`docs/development/DEV-{id}.md`
-- 审查报告：`docs/reviews/REVIEW-{id}.md`
-- 测试报告：`docs/tests/TEST-{id}.md`
+- PRD：`PRD-{id}.md`（见 [requirements/](../requirements/)）
+- 技术方案：`SPEC-{id}.md`（见 [specs/](../specs/)）
+- 开发记录：`DEV-{id}.md`（见 [development/](../development/)）
+- 审查报告：`REVIEW-{id}.md`（见 [reviews/](../reviews/)）
+- 测试报告：`TEST-{id}.md`（见 [tests/](../tests/)）
 
 ## 确认节点要求
 
 - PRD确认：必须已有 PRD 文档并包含验收矩阵
-- 方案确认：必须已有技术方案文档且满足必备内容（见 `docs/specs/`）
+- 方案确认：必须已有技术方案文档且满足必备内容（见 [specs/](../specs/)）

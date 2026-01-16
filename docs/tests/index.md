@@ -10,7 +10,7 @@ TEST-{id}.md
 
 ## 模板
 
-- `docs/templates/test.md`
+- [templates/test.md](../templates/test.md)
 
 ## 用例ID规则
 

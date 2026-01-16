@@ -10,7 +10,7 @@ SPEC-{id}.md
 
 ## 模板
 
-- `docs/templates/spec.md`
+- [templates/spec.md](../templates/spec.md)
 
 ## 必备内容
 

@@ -19,25 +19,25 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 
 # 产出物约定
 
-- PRD：`docs/requirements/PRD-{id}.md`（含验收矩阵）
-- 技术方案：`docs/specs/SPEC-{id}.md`
-- 开发记录：`docs/development/DEV-{id}.md`
-- 审查报告：`docs/reviews/REVIEW-{id}.md`
-- 测试报告：`docs/tests/TEST-{id}.md`
+- PRD：`PRD-{id}.md`（含验收矩阵，见 [docs/requirements/](../../docs/requirements/)）
+- 技术方案：`SPEC-{id}.md`（见 [docs/specs/](../../docs/specs/)）
+- 开发记录：`DEV-{id}.md`（见 [docs/development/](../../docs/development/)）
+- 审查报告：`REVIEW-{id}.md`（见 [docs/reviews/](../../docs/reviews/)）
+- 测试报告：`TEST-{id}.md`（见 [docs/tests/](../../docs/tests/)）
 
 # 当前任务状态（单任务模式）
 
 - 仅允许单一进行中任务
-- 状态文件固定为：`docs/tmp/current.md`
+- 状态文件固定为：`docs/tmp/current.md`（运行时）
 - 启动时先检测 `docs/tmp/current.md`：存在则续接，不存在则新建任务
 - 阶段更新必须同步写入该文件（阶段、产出物路径、下一步）
 - 任务完成后删除整个 `docs/tmp/` 目录
-- 状态文档格式参考模板：`docs/templates/current-task.md`，任务 ID 使用 6 位自增数字（例如 `000001`）
+- 状态文档格式参考模板：[docs/templates/current-task.md](../../docs/templates/current-task.md)，任务 ID 使用 6 位自增数字（例如 `000001`）
 
 # 资源索引（按需读取）
 
-- `references/workflow.md`：角色分工、阶段流转、确认节点
-- `references/state.md`：`.cc-agent` 状态文件结构
-- `references/commands.md`：`/cc-*` 指令行为
-- `assets/AGENTS.md`：可复制的入口文件模板
-- `assets/.cc-agent/`：状态机初始化模板
+- [references/workflow.md](references/workflow.md)：角色分工、阶段流转、确认节点
+- [references/state.md](references/state.md)：`.cc-agent` 状态文件结构
+- [references/commands.md](references/commands.md)：`/cc-*` 指令行为
+- [assets/AGENTS.md](assets/AGENTS.md)：可复制的入口文件模板
+- [assets/.cc-agent/](assets/.cc-agent/)：状态机初始化模板

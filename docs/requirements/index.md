@@ -10,7 +10,7 @@ PRD-{id}.md
 
 ## 模板
 
-- `docs/templates/prd.md`
+- [templates/prd.md](../templates/prd.md)
 - PRD 需包含验收矩阵
 
 ## 验收标准定义（参考）
@@ -40,7 +40,7 @@ PRD-{id}.md
   - 自动：自动化用例覆盖
   - 接口：仅接口层验证
   - 集成：跨服务/跨模块联调
-- 用例ID：测试阶段分配并回填，规则见 `docs/tests/`
+- 用例ID：测试阶段分配并回填，规则见 [tests/](../tests/)
 - 负责人确定规则：
   - 默认：Tester（负责最终验收）
   - 需要业务确认：PM 参与或共同负责

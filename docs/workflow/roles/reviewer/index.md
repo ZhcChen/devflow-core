@@ -13,8 +13,8 @@
 
 ## 输出
 
-- `docs/reviews/REVIEW-{id}.md`
+- `REVIEW-{id}.md`（见 [reviews/](../../../reviews/)）
 
 ## 模板
 
-- `docs/templates/review.md`
+- [templates/review.md](../../../templates/review.md)

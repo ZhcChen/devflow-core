@@ -16,8 +16,8 @@
 
 ## 输出
 
-- `docs/requirements/PRD-{id}.md`
+- `PRD-{id}.md`（见 [requirements/](../../../requirements/)）
 
 ## 模板
 
-- `docs/templates/prd.md`
+- [templates/prd.md](../../../templates/prd.md)

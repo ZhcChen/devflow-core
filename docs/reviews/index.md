@@ -10,4 +10,4 @@ REVIEW-{id}.md
 
 ## 模板
 
-- `docs/templates/review.md`
+- [templates/review.md](../templates/review.md)
