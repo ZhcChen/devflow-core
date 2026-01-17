@@ -25,4 +25,4 @@ skills/
 
 ## 文档索引
 
-- `docs/index.md`
+- [docs/index.md](docs/index.md)
