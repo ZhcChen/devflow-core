@@ -1,6 +1,6 @@
 # 当前任务状态结构（单任务模式）
 
-## docs/tmp/current.md（任务详情）
+## `docs/tmp/current.md`（任务详情，说明见 [docs/tmp/README.md](../../../docs/tmp/README.md)）
 
 ```yaml
 ---

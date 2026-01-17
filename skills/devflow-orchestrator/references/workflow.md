@@ -8,12 +8,12 @@
 
 ## 角色分工
 
-- Orchestrator：流程调度、确认节点管理、状态维护
-- PM：需求拆解与 PRD
-- Architect：技术方案与架构设计
-- Developer：按方案实现代码
-- Reviewer：代码审查报告
-- Tester：测试报告与缺陷清单
+- Orchestrator（主 Agent）：流程调度、确认节点管理、状态维护
+- PM（产品负责人）：需求拆解与 PRD
+- Architect（架构师）：技术方案与架构设计
+- Developer（开发）：按方案实现代码
+- Reviewer（审查）：代码审查报告
+- Tester（测试）：测试报告与缺陷清单
 
 ## 确认节点
 

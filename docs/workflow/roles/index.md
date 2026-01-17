@@ -2,9 +2,9 @@
 
 | 角色 | 文档 |
 |------|------|
-| Orchestrator | [orchestrator/](orchestrator/) |
-| PM | [pm/](pm/) |
-| Architect | [architect/](architect/) |
-| Developer | [developer/](developer/) |
-| Reviewer | [reviewer/](reviewer/) |
-| Tester | [tester/](tester/) |
+| Orchestrator（主 Agent） | [orchestrator/](orchestrator/) |
+| PM（产品负责人） | [pm/](pm/) |
+| Architect（架构师） | [architect/](architect/) |
+| Developer（开发） | [developer/](developer/) |
+| Reviewer（审查） | [reviewer/](reviewer/) |
+| Tester（测试） | [tester/](tester/) |

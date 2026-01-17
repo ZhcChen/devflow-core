@@ -1,12 +1,12 @@
 ---
 name: devflow-orchestrator
-description: 多角色软件开发流程编排与任务状态管理。适用于需要按“需求分析→PRD确认→技术设计→方案确认→编码→审查→测试→完成”推进的任务；用于建立文档驱动开发、确认节点控制与 docs/tmp 状态文档。
+description: 多角色软件开发流程编排与任务状态管理。适用于需要按“需求分析→PRD确认→技术设计→方案确认→编码→审查→测试→完成”推进的任务；用于建立文档驱动开发、确认节点控制与运行时状态文档管理。
 ---
 
 # 目标
 
 - 作为 Orchestrator 统筹 PM/Architect/Developer/Reviewer/Tester 的交付顺序
-- 使用 docs/tmp 状态文档实现跨会话任务续接与确认节点控制
+- 使用运行时状态文档实现跨会话任务续接与确认节点控制
 - 通过固定产出物（PRD/SPEC/报告）驱动流程推进
 
 # 使用方式
@@ -27,7 +27,7 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 # 当前任务状态（单任务模式）
 
 - 仅允许单一进行中任务
-- 状态文件固定为：`docs/tmp/current.md`（运行时）
+- 状态文件固定为：`docs/tmp/current.md`（运行时，说明见 [docs/tmp/README.md](../../docs/tmp/README.md)）
 - 启动时先检测 `docs/tmp/current.md`：存在则续接，不存在则新建任务
 - 阶段更新必须同步写入该文件（阶段、产出物路径、下一步）
 - 任务完成后删除 `docs/tmp/current.md`（保留 [docs/tmp/README.md](../../docs/tmp/README.md)）

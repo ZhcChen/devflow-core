@@ -1,4 +1,4 @@
-# Architect
+# Architect（架构师）
 
 ## 职责
 
