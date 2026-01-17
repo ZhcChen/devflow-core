@@ -3,6 +3,7 @@
 ## docs/tmp/current.md（任务详情）
 
 ```yaml
+---
 id: "000001"
 name: "示例任务"
 stage: "技术设计"
@@ -16,9 +17,10 @@ artifacts:
   dev: "docs/development/DEV-000001.md"
   review: "docs/reviews/REVIEW-000001.md"
   test: "docs/tests/TEST-000001.md"
+---
 ```
 
-正文部分按 [docs/templates/current-task.md](../../docs/templates/current-task.md) 执行。
+正文部分按 [docs/templates/current-task.md](../../docs/templates/current-task.md) 执行（Markdown 段落）。
 
 ## 阶段枚举
 
