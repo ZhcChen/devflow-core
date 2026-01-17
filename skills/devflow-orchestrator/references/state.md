@@ -1,27 +1,24 @@
-# .cc-agent 状态结构
+# 当前任务状态结构（单任务模式）
 
-## index.yaml（轻量索引）
-
-```yaml
-current: "001"
-
-tasks:
-  - id: "001"
-    name: "示例任务"
-    stage: "技术设计"
-```
-
-## tasks/{id}.yaml（任务详情）
+## docs/tmp/current.md（任务详情）
 
 ```yaml
-id: "001"
+id: "000001"
 name: "示例任务"
 stage: "技术设计"
 created_at: "2026-01-16"
-prd: "docs/requirements/PRD-001-示例任务.md"
-spec: "docs/specs/SPEC-001-示例任务.md"
-commits: []
+updated_at: "2026-01-16"
+pending_confirmation: false
+next_action: "输出技术方案"
+artifacts:
+  prd: "docs/requirements/PRD-000001.md"
+  spec: "docs/specs/SPEC-000001.md"
+  dev: "docs/development/DEV-000001.md"
+  review: "docs/reviews/REVIEW-000001.md"
+  test: "docs/tests/TEST-000001.md"
 ```
+
+正文部分按 [docs/templates/current-task.md](../../docs/templates/current-task.md) 执行。
 
 ## 阶段枚举
 
