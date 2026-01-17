@@ -7,3 +7,10 @@
 ## 模板
 
 - [templates/review.md](../templates/review.md)
+
+## 必备内容
+
+- 关联文档（PRD/SPEC/DEV）
+- 审查清单结果
+- 问题列表与等级
+- 结论与是否进入测试
