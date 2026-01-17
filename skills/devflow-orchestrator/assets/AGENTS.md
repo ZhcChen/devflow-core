@@ -5,7 +5,3 @@
 ## 流程
 
 PM → [PRD确认] → Architect → [方案确认] → Developer → Reviewer → Tester
-
-## 指令
-
-无
