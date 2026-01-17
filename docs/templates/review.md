@@ -21,7 +21,7 @@
 - [ ] 关键逻辑与边界处理完整
 - [ ] 安全与权限校验
 - [ ] 性能风险评估
-- [ ] SQL 变更符合规范（见 [conventions/sql.md](../conventions/sql.md)）
+- [ ] 如涉及 SQL 变更，符合规范（见 [conventions/sql.md](../conventions/sql.md)）
 - [ ] 配置/依赖变更已记录
 
 ## 问题列表

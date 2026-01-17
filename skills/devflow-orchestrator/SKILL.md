@@ -1,6 +1,6 @@
 ---
 name: devflow-orchestrator
-description: 多角色软件开发流程编排与任务状态管理。适用于需要按“需求分析→PRD确认→技术设计→方案确认→编码→审查→测试→完成”推进的任务，或需要 /cc-status、/cc-tasks、/cc-switch、/cc-confirm、/cc-back 指令的场景；用于建立文档驱动开发、确认节点控制与 docs/tmp 状态文档。
+description: 多角色软件开发流程编排与任务状态管理。适用于需要按“需求分析→PRD确认→技术设计→方案确认→编码→审查→测试→完成”推进的任务，或需要 /cc-status、/cc-tasks、/cc-confirm、/cc-back 等指令的场景；用于建立文档驱动开发、确认节点控制与 docs/tmp 状态文档。
 ---
 
 # 目标
