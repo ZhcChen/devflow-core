@@ -28,7 +28,7 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 # 当前任务状态（单任务模式）
 
 - 仅允许单一进行中任务
-- 状态文件固定为：`docs/tmp/current.md`（运行时）
+- 状态文件固定为：[docs/tmp/current.md](../../docs/tmp/current.md)（运行时）
 - 启动时先检测 `docs/tmp/current.md`：存在则续接，不存在则新建任务
 - 阶段更新必须同步写入该文件（阶段、产出物路径、下一步）
 - 任务完成后删除整个 `docs/tmp/` 目录
