@@ -12,7 +12,7 @@
 
 ## 输出
 
-- 当前任务状态更新（见 [docs/tmp/current.md](../../../tmp/current.md)）
+- 当前任务状态更新（运行时生成，见 [docs/tmp/current.md](../../../tmp/current.md)）
 
 ## 参考
 
