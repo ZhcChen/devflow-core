@@ -20,7 +20,7 @@ artifacts:
 ---
 ```
 
-正文部分按 [docs/templates/current-task.md](../../docs/templates/current-task.md) 执行（Markdown 段落）。
+正文部分按 [docs/templates/current-task.md](../../../docs/templates/current-task.md) 执行（Markdown 段落）。
 
 ## 阶段枚举
 
