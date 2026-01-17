@@ -18,7 +18,7 @@ PM → [PRD确认] → Architect → [方案确认] → Developer → Reviewer �
 
 ## 角色职责
 
-- Orchestrator：协调流程、管理确认节点、推进阶段流转
+- Orchestrator：协调流程、管理确认节点、推进阶段流转（见 [orchestrator/](roles/orchestrator/)）
 - PM：需求澄清与 PRD 产出
 - Architect：技术方案与架构设计
 - Developer：按方案实现代码与开发记录
@@ -29,6 +29,7 @@ PM → [PRD确认] → Architect → [方案确认] → Developer → Reviewer �
 
 | 角色 | 文档 |
 |------|------|
+| Orchestrator | [orchestrator/](roles/orchestrator/) |
 | PM | [pm/](roles/pm/) |
 | Architect | [architect/](roles/architect/) |
 | Developer | [developer/](roles/developer/) |
