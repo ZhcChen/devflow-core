@@ -9,7 +9,6 @@ PM → [PRD确认] → Architect → [方案确认] → Developer → Reviewer �
 ## 指令
 
 - `/cc-status` 查看当前任务
-- `/cc-tasks` 列出任务列表
-- `/cc-switch <id>` 切换任务
+- `/cc-tasks` 查看当前任务（单任务模式）
 - `/cc-confirm` 确认阶段进入下一步
 - `/cc-back` 回退到上一阶段
