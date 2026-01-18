@@ -4,4 +4,4 @@
 
 ## 流程
 
-PM → [PRD确认] → Architect → [方案确认] → Developer → Reviewer → Tester
+PM（产品负责人） → [PRD确认] → Architect（架构师） → [方案确认] → Developer（开发） → Reviewer（审查） → Tester（测试）
