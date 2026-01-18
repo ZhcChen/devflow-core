@@ -5,7 +5,7 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 
 # 目标
 
-- 作为 Orchestrator 统筹 PM/Architect/Developer/Reviewer/Tester 的交付顺序
+- 作为 Orchestrator 统筹 PM（产品负责人）/Architect（架构师）/Developer（开发）/Reviewer（审查）/Tester（测试） 的交付顺序
 - 使用运行时状态文档实现跨会话任务续接与确认节点控制
 - 通过固定产出物（PRD/SPEC/报告）驱动流程推进
 
