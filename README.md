@@ -11,7 +11,7 @@
 
 | 名称 | 作用 | 简介 |
 |------|------|------|
-| devflow-orchestrator | 开发流程编排 | 多角色流程与确认节点的单任务状态机，提供 Orchestrator 级别的流程驱动与文档落盘规范。 |
+| devflow-orchestrator | 开发流程编排 | 多角色流程与确认节点的单任务状态机，提供 Orchestrator（主 Agent）级别的流程驱动与文档落盘规范。 |
 
 ## 目录结构
 
