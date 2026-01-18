@@ -4,3 +4,4 @@
 
 - 该文件由流程运行时生成，不纳入版本控制。
 - 任务完成后删除 `docs/tmp/current.md`（保留本说明文件）。
+- 状态文档格式参考 [templates/current-task.md](../templates/current-task.md)。

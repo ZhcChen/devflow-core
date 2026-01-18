@@ -28,9 +28,9 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 
 - 仅允许单一进行中任务
 - 状态文件固定为：`docs/tmp/current.md`（运行时，说明见 [docs/tmp/README.md](../../docs/tmp/README.md)）
-- 启动时先检测 `docs/tmp/current.md`：存在则续接，不存在则新建任务
+- 启动时先检测该文件：存在则续接，不存在则新建任务
 - 阶段更新必须同步写入该文件（阶段、产出物路径、下一步）
-- 任务完成后删除 `docs/tmp/current.md`（保留 [docs/tmp/README.md](../../docs/tmp/README.md)）
+- 任务完成后删除该文件（保留 [docs/tmp/README.md](../../docs/tmp/README.md)）
 - 状态文档格式参考模板：[docs/templates/current-task.md](../../docs/templates/current-task.md)，命名规范见 [docs/conventions/](../../docs/conventions/)
 
 # 资源索引（按需读取）
