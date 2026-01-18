@@ -16,6 +16,19 @@ PM（产品负责人） → [PRD确认] → Architect（架构师） → [方案
 [需求分析] → [PRD确认] → [技术设计] → [方案确认] → [编码] → [审查] → [测试] → [完成]
 ```
 
+## 阶段进入/退出条件（摘要）
+
+| 阶段 | 进入条件 | 退出条件 |
+|------|----------|----------|
+| 需求分析 | 任务已创建 | PRD 草案完成 |
+| PRD确认 | PRD 已落盘且含验收矩阵 | 用户确认后进入技术设计 |
+| 技术设计 | PRD 已确认 | 技术方案草案完成 |
+| 方案确认 | 技术方案已落盘且满足必备内容 | 用户确认后进入编码 |
+| 编码 | 方案已确认 | 开发记录与代码变更完成 |
+| 审查 | 开发记录已落盘 | 审查通过进入测试 |
+| 测试 | 审查通过 | 测试通过进入完成 |
+| 完成 | 测试通过 | 任务关闭 |
+
 ## 角色职责
 
 - Orchestrator（主 Agent）：协调流程、管理确认节点、推进阶段流转（见 [orchestrator/](roles/orchestrator/)）
@@ -35,6 +48,16 @@ PM（产品负责人） → [PRD确认] → Architect（架构师） → [方案
 | Developer（开发） | [developer/](roles/developer/) |
 | Reviewer（审查） | [reviewer/](roles/reviewer/) |
 | Tester（测试） | [tester/](roles/tester/) |
+
+## 交接清单（最少输入/输出）
+
+| 交接 | 输出 | 接收方 |
+|------|------|--------|
+| PM → Architect | PRD（含验收矩阵） | Architect |
+| Architect → Developer | 技术方案（SPEC） | Developer |
+| Developer → Reviewer | 代码变更与开发记录（DEV） | Reviewer |
+| Reviewer → Tester | 审查报告（REVIEW，通过） | Tester |
+| Tester → Orchestrator | 测试报告（TEST，通过） | Orchestrator |
 
 ## 产出物
 
