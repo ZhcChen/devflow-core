@@ -14,6 +14,7 @@ description: PM（产品负责人）角色 skill。负责产出 PRD（含验收�
 2. 读取角色职责：[docs/workflow/roles/pm/](../../docs/workflow/roles/pm/)
 3. 使用模板：[docs/templates/prd.md](../../docs/templates/prd.md)
 4. PRD 落盘到：[docs/requirements/](../../docs/requirements/)
+5. 在需求池中更新记录状态（见 [docs/backlog/intake.md](../../docs/backlog/intake.md)）
 
 # 输出
 

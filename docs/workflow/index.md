@@ -83,3 +83,9 @@ PM（产品负责人） → [PRD确认] → Architect（架构师） → [方案
 
 - 允许任务在“方案确认”后进入待开发清单（见 [backlog/ready.md](../backlog/ready.md)）
 - 进入开发前需从清单移除并恢复到“编码”阶段
+
+## 批量预研模式（推荐）
+
+- 一批需求先进入需求池（见 [backlog/intake.md](../backlog/intake.md)）
+- 仅执行 PM 与 Architect 阶段，完成 PRD 与 SPEC 的确认
+- 方案确认后登记待开发清单，再进入排期开发
