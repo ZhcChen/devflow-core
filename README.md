@@ -18,6 +18,7 @@
 | devflow-developer | 开发角色 | 按方案实现并输出开发记录（DEV）。 |
 | devflow-reviewer | 审查角色 | 输出审查报告（REVIEW）并给出结论。 |
 | devflow-tester | 测试角色 | 输出测试报告（TEST）与缺陷清单。 |
+| devflow-notifier | 通知工具 | Telegram 通知脚本，任务全部完成时发送消息并支持本地绑定配置。 |
 
 ## 目录结构
 
