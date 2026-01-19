@@ -31,4 +31,4 @@ skills/
 
 ## 文档索引
 
-- [skills/devflow-orchestrator/docs/](skills/devflow-orchestrator/docs/)
+- [docs/index.md](docs/index.md)

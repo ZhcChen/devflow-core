@@ -15,5 +15,5 @@ description: 公共规范索引 skill。集中提供命名规范、验收矩阵�
 
 # 说明
 
-- 规范权威源位于 `devflow-orchestrator` 的 docs 目录
+- 规范权威源位于根目录 `docs/`
 - 本 skill 仅做索引，不复制规则内容
