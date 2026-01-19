@@ -11,7 +11,7 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 
 # 使用方式
 
-1. 读取 `docs/tmp/current.md` 作为唯一状态源（单任务模式，说明见 [docs/tmp/README.md](docs/tmp/README.md)）
+1. 读取 `docs/tmp/current.md` 作为唯一状态源（位于本 skill 的 docs 目录，说明见 [docs/tmp/README.md](docs/tmp/README.md)）
 2. 当运行时状态不存在时，从 [docs/templates/current-task.md](docs/templates/current-task.md) 初始化
 3. 按 [references/workflow.md](references/workflow.md) 的流程推进阶段，遇到确认节点停止等待用户输入
 4. 产出物统一落盘并记录在任务状态中
@@ -38,3 +38,12 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 - [references/workflow.md](references/workflow.md)：角色分工、阶段流转、确认节点
 - [references/state.md](references/state.md)：任务状态文档结构
 - [assets/AGENTS.md](assets/AGENTS.md)：可复制的入口文件模板
+
+# 协作技能（可选）
+
+- 公共规范索引：[devflow-common](../devflow-common/SKILL.md)
+- PM：[devflow-pm](../devflow-pm/SKILL.md)
+- Architect：[devflow-architect](../devflow-architect/SKILL.md)
+- Developer：[devflow-developer](../devflow-developer/SKILL.md)
+- Reviewer：[devflow-reviewer](../devflow-reviewer/SKILL.md)
+- Tester：[devflow-tester](../devflow-tester/SKILL.md)
