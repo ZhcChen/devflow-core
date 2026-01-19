@@ -14,7 +14,6 @@ description: Architect（架构师）角色 skill。负责产出技术方案（S
 2. 读取角色职责：[docs/workflow/roles/architect/](../../docs/workflow/roles/architect/)
 3. 使用模板：[docs/templates/spec.md](../../docs/templates/spec.md)
 4. 技术方案落盘到：[docs/specs/](../../docs/specs/)
-5. 更新运行时状态：将技术方案路径写入 `artifacts.spec`（文件见 [docs/tmp/README.md](../../docs/tmp/README.md)）
 
 # 输出
 

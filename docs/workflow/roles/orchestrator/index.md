@@ -14,10 +14,6 @@
 
 - 当前任务状态更新（运行时生成，说明见 [tmp/README.md](../../../tmp/README.md)）
 
-## 模板
-
-- [templates/current-task.md](../../../templates/current-task.md)
-
 ## 参考
 
 - [流程总览](../../index.md)

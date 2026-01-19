@@ -14,7 +14,6 @@ description: Reviewer（审查）角色 skill。负责代码审查并输出审�
 2. 读取角色职责：[docs/workflow/roles/reviewer/](../../docs/workflow/roles/reviewer/)
 3. 使用模板：[docs/templates/review.md](../../docs/templates/review.md)
 4. 审查报告落盘到：[docs/reviews/](../../docs/reviews/)
-5. 更新运行时状态：将审查报告路径写入 `artifacts.review`（文件见 [docs/tmp/README.md](../../docs/tmp/README.md)）
 
 # 输出
 

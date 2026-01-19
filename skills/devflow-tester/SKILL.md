@@ -14,7 +14,6 @@ description: Tester（测试）角色 skill。负责测试用例与测试报告�
 2. 读取角色职责：[docs/workflow/roles/tester/](../../docs/workflow/roles/tester/)
 3. 使用模板：[docs/templates/test.md](../../docs/templates/test.md)
 4. 测试报告落盘到：[docs/tests/](../../docs/tests/)
-5. 更新运行时状态：将测试报告路径写入 `artifacts.test`（文件见 [docs/tmp/README.md](../../docs/tmp/README.md)）
 
 # 输出
 
