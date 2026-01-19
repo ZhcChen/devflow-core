@@ -11,27 +11,27 @@ description: 多角色软件开发流程编排与任务状态管理。适用于�
 
 # 使用方式
 
-1. 读取 `docs/tmp/current.md` 作为唯一状态源（单任务模式，说明见 [docs/tmp/README.md](../../docs/tmp/README.md)）
-2. 当运行时状态不存在时，从 [docs/templates/current-task.md](../../docs/templates/current-task.md) 初始化
+1. 读取 `docs/tmp/current.md` 作为唯一状态源（单任务模式，说明见 [docs/tmp/README.md](docs/tmp/README.md)）
+2. 当运行时状态不存在时，从 [docs/templates/current-task.md](docs/templates/current-task.md) 初始化
 3. 按 [references/workflow.md](references/workflow.md) 的流程推进阶段，遇到确认节点停止等待用户输入
 4. 产出物统一落盘并记录在任务状态中
 
 # 产出物约定
 
-- PRD：`PRD-{id}.md`（含验收矩阵，见 [docs/requirements/](../../docs/requirements/)）
-- 技术方案：`SPEC-{id}.md`（见 [docs/specs/](../../docs/specs/)）
-- 开发记录：`DEV-{id}.md`（见 [docs/development/](../../docs/development/)）
-- 审查报告：`REVIEW-{id}.md`（见 [docs/reviews/](../../docs/reviews/)）
-- 测试报告：`TEST-{id}.md`（见 [docs/tests/](../../docs/tests/)）
+- PRD：`PRD-{id}.md`（含验收矩阵，见 [docs/requirements/](docs/requirements/)）
+- 技术方案：`SPEC-{id}.md`（见 [docs/specs/](docs/specs/)）
+- 开发记录：`DEV-{id}.md`（见 [docs/development/](docs/development/)）
+- 审查报告：`REVIEW-{id}.md`（见 [docs/reviews/](docs/reviews/)）
+- 测试报告：`TEST-{id}.md`（见 [docs/tests/](docs/tests/)）
 
 # 当前任务状态（单任务模式）
 
 - 仅允许单一进行中任务
-- 状态文件固定为：`docs/tmp/current.md`（运行时，说明见 [docs/tmp/README.md](../../docs/tmp/README.md)）
+- 状态文件固定为：`docs/tmp/current.md`（运行时，说明见 [docs/tmp/README.md](docs/tmp/README.md)）
 - 启动时先检测该文件：存在则续接，不存在则新建任务
 - 阶段更新必须同步写入该文件（阶段、产出物路径、下一步）
-- 任务完成后删除该文件（保留 [docs/tmp/README.md](../../docs/tmp/README.md)）
-- 状态文档格式参考模板：[docs/templates/current-task.md](../../docs/templates/current-task.md)，命名规范见 [docs/conventions/](../../docs/conventions/)
+- 任务完成后删除该文件（保留 [docs/tmp/README.md](docs/tmp/README.md)）
+- 状态文档格式参考模板：[docs/templates/current-task.md](docs/templates/current-task.md)，命名规范见 [docs/conventions/](docs/conventions/)
 
 # 资源索引（按需读取）
 

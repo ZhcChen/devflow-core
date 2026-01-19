@@ -12,7 +12,7 @@
 
 ## 输出
 
-- 当前任务状态更新（运行时生成，说明见 [docs/tmp/README.md](../../../tmp/README.md)）
+- 当前任务状态更新（运行时生成，说明见 [tmp/README.md](../../../tmp/README.md)）
 
 ## 模板
 

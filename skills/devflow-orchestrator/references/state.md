@@ -1,6 +1,6 @@
 # 当前任务状态结构（单任务模式）
 
-## `docs/tmp/current.md`（任务详情，说明见 [docs/tmp/README.md](../../../docs/tmp/README.md)）
+## `docs/tmp/current.md`（任务详情，说明见 [docs/tmp/README.md](../docs/tmp/README.md)）
 
 ```yaml
 ---
@@ -20,7 +20,7 @@ artifacts:
 ---
 ```
 
-正文部分按 [docs/templates/current-task.md](../../../docs/templates/current-task.md) 执行（Markdown 段落）。
+正文部分按 [docs/templates/current-task.md](../docs/templates/current-task.md) 执行（Markdown 段落）。
 
 ## 阶段枚举
 

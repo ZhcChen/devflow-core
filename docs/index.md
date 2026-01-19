@@ -1,14 +1,6 @@
-# 文档索引
+# 文档索引（非 skill）
 
-| 文档 | 说明 |
-|------|------|
-| [流程](workflow/) | 开发流程与角色分工 |
-| [角色职责](workflow/roles/) | 各角色职责与产出 |
-| [模板](templates/) | 文档模板 |
-| [命名规范](conventions/) | 统一命名规则 |
-| [需求文档](requirements/) | PRD 存放与规范 |
-| [技术方案](specs/) | 技术方案存放与规范 |
-| [开发记录](development/) | 开发记录存放与规范 |
-| [审查报告](reviews/) | 审查报告存放与规范 |
-| [测试报告](tests/) | 测试报告存放与规范 |
-| [运行时状态](tmp/README.md) | 临时任务状态说明（不纳入版本控制） |
+此目录仅用于非 skill 的通用文档。
+当前项目的流程与模板文档已迁移至：
+
+- [skills/devflow-orchestrator/docs/](../skills/devflow-orchestrator/docs/)
