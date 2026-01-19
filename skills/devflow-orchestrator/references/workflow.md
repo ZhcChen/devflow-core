@@ -31,3 +31,10 @@
 - 方案确认后可登记至待开发清单（见 [docs/backlog/ready.md](../../../docs/backlog/ready.md)）
 - 进入开发前从清单移除
 - 主 Agent 按清单顺序推进，用户指示或主 Agent 提示后进入开发
+
+## 逻辑冲突处理（必需）
+
+- 测试发现问题后，先判断是代码问题还是逻辑/需求冲突
+- 逻辑/需求冲突登记至逻辑问题清单（见 [docs/backlog/logic-issues.md](../../../docs/backlog/logic-issues.md)）
+- 关联任务在待开发清单中标记阻塞
+- 批量任务完成后集中澄清，确认后恢复流程

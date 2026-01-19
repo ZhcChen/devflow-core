@@ -7,7 +7,7 @@ description: 多角色软件开发流程编排与任务推进。适用于需要�
 
 - 作为 Orchestrator（主 Agent）统筹 PM（产品负责人）/Architect（架构师）/Developer（开发）/Reviewer（审查）/Tester（测试） 的交付顺序
 - 管理确认节点与流程推进节奏
-- 维护需求池与待开发清单
+- 维护需求池、待开发清单与逻辑问题清单
 - 按清单顺序串行推进任务，用户指示或主 Agent 提示后进入开发
 - 通过固定产出物（PRD/SPEC/报告）驱动流程推进
 

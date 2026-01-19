@@ -13,3 +13,4 @@
 | [测试报告](tests/) | 测试报告存放与规范 |
 | [需求池](backlog/intake.md) | 待澄清需求清单 |
 | [待开发清单](backlog/ready.md) | 方案已确认、等待开发的任务清单 |
+| [逻辑问题清单](backlog/logic-issues.md) | 逻辑/需求冲突问题记录 |
