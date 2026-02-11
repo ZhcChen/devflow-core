@@ -7,6 +7,34 @@
 - 直接从 GitHub 读取仓库，并按需加载 `skills/` 下的 skill
 - 每个 skill 都是独立目录，包含 `SKILL.md`（触发与执行说明）及相关资源
 
+## 初始化 / 更新 / 回滚
+
+### 初始化
+
+- 将 `AGENTS.md`、`docs/`、`skills/` 复制或同步到目标项目根目录
+- 目标项目需保持 `docs/index.md` 为文档入口
+
+### 更新
+
+- 以 Git 方式同步更新（建议保持与本仓库同源）
+- 更新后优先核对 `docs/overrides/` 是否需要补充或调整
+
+### 回滚
+
+- 使用 Git tag 或回滚到指定提交
+- 若为子模块/子树引用，回退到上一个稳定版本
+
+## 依赖与覆盖规则
+
+- 多数 skill 会引用 `docs/` 中的规范与模板，使用 skill 时应同时同步 `docs/`
+- 允许项目级覆盖：在 `docs/overrides/` 下记录并覆盖默认规范
+- 覆盖优先级：`docs/overrides/` > 其他 `docs/` 规范
+
+## 版本与变更记录
+
+- 变更记录见 [CHANGELOG.md](CHANGELOG.md)
+- 版本建议采用语义化版本（tag 形式）
+
 ## Skills
 
 | 名称 | 作用 | 简介 |

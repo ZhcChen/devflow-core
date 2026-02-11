@@ -18,3 +18,19 @@ PM（产品负责人） → [PRD确认] → Architect（架构师） → [方案
 - PRD确认与方案确认是强制确认节点，未获得明确确认不得进入下一阶段
 - 产出物需落盘并可追溯：PRD（含验收矩阵）、技术方案、开发记录、审查报告、测试报告分别存放在对应文档目录
 - 流程与角色细节参考索引：[docs/index.md](docs/index.md) → [docs/workflow/](docs/workflow/)
+
+## 自动推进规则（开发/审查/测试）
+
+- 仅 PRD确认与方案确认需要用户明确确认
+- 一旦方案确认完成，Developer → Reviewer → Tester 自动推进，不再询问用户
+- 测试未通过时自动回到 Developer 修复，直到测试 100% 通过
+- 若出现阻塞（缺少凭证/环境、外部依赖不可用、逻辑冲突），需记录并暂停，仅此类情况才请求用户确认
+- 任务完成以测试 100% 通过为准
+
+## 多 Agent 协作规则
+
+- 主 Agent 负责流程编排、确认节点与任务节奏
+- 子 Agent 分别执行 PM/Architect/Developer/Reviewer/Tester 角色职责
+- 允许并行推进，但必须满足逻辑依赖与产出顺序
+- 对于有明确前置依赖的阶段仍按串行推进（例如 Reviewer/Tester 需基于 DEV 产出）
+- 交接以文档落盘为准（PRD/SPEC/DEV/REVIEW/TEST）

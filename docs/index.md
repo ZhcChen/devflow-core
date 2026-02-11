@@ -14,3 +14,4 @@
 | [需求池](backlog/intake.md) | 待澄清需求清单 |
 | [待开发清单](backlog/ready.md) | 方案已确认、等待开发的任务清单 |
 | [逻辑问题清单](backlog/logic-issues.md) | 逻辑/需求冲突问题记录 |
+| [覆盖规范](overrides/) | 项目级规范覆盖与补充 |
