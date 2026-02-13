@@ -39,10 +39,10 @@
 
 | 名称 | 作用 | 简介 |
 |------|------|------|
-| devflow-orchestrator | 开发流程编排 | 多角色流程与确认节点的单任务状态机，提供 Orchestrator（主 Agent）级别的流程驱动与文档落盘规范。 |
+| devflow-orchestrator | 开发流程编排 | 多角色流程与按需确认节点的单任务状态机，提供 Orchestrator（主 Agent）级别的流程驱动与文档落盘规范。 |
 | devflow-common | 公共规范索引 | 统一提供命名规范、验收矩阵与 SQL 规范等公共规则入口。 |
-| devflow-pm | PM 角色 | 产出 PRD（含验收矩阵）并推动 PRD 确认。 |
-| devflow-architect | 架构师角色 | 产出技术方案（SPEC）并推动方案确认。 |
+| devflow-pm | PM 角色 | 产出 PRD（含验收矩阵）并推动 PRD 定稿（必要时确认）。 |
+| devflow-architect | 架构师角色 | 产出技术方案（SPEC）并推动方案定稿（必要时确认）。 |
 | devflow-developer | 开发角色 | 按方案实现并输出开发记录（DEV）。 |
 | devflow-reviewer | 审查角色 | 输出审查报告（REVIEW）并给出结论。 |
 | devflow-tester | 测试角色 | 输出测试报告（TEST）与缺陷清单。 |

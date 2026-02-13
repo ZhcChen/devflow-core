@@ -1,12 +1,12 @@
 ---
 name: devflow-orchestrator
-description: 多角色软件开发流程编排与任务推进。适用于需要按“需求分析→PRD确认→技术设计→方案确认→编码→审查→测试→完成”推进的任务；用于建立文档驱动开发与确认节点控制。
+description: 多角色软件开发流程编排与任务推进。适用于需要按“需求分析→PRD定稿→技术设计→方案定稿→编码→审查→测试→完成”推进的任务；用于建立文档驱动开发与按需确认控制。
 ---
 
 # 目标
 
 - 作为 Orchestrator（主 Agent）统筹 PM（产品负责人）/Architect（架构师）/Developer（开发）/Reviewer（审查）/Tester（测试） 的交付顺序
-- 管理确认节点与流程推进节奏
+- 管理决策/确认节点与流程推进节奏
 - 维护需求池、待开发清单与逻辑问题清单
 - 按清单顺序串行推进任务，用户指示或主 Agent 提示后进入开发
 - 校验清单顺序符合逻辑依赖
@@ -15,7 +15,7 @@ description: 多角色软件开发流程编排与任务推进。适用于需要�
 
 # 使用方式
 
-1. 按 [references/workflow.md](references/workflow.md) 的流程推进阶段，遇到确认节点停止等待用户输入
+1. 按 [references/workflow.md](references/workflow.md) 的流程推进阶段，默认自动推进；仅在触发强制确认条件时停止等待用户输入
 2. 产出物统一落盘至规范目录
 
 # 产出物约定
@@ -28,7 +28,7 @@ description: 多角色软件开发流程编排与任务推进。适用于需要�
 
 # 资源索引（按需读取）
 
-- [references/workflow.md](references/workflow.md)：角色分工、阶段流转、确认节点
+- [references/workflow.md](references/workflow.md)：角色分工、阶段流转、按需确认规则
 - [assets/AGENTS.md](assets/AGENTS.md)：可复制的入口文件模板
 
 # 协作技能（可选）

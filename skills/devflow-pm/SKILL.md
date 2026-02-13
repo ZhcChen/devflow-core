@@ -1,6 +1,6 @@
 ---
 name: devflow-pm
-description: PM（产品负责人）角色 skill。负责产出 PRD（含验收矩阵）并推动 PRD 确认。
+description: PM（产品负责人）角色 skill。负责产出 PRD（含验收矩阵）并推动 PRD 定稿（必要时发起确认）。
 ---
 
 # 目标
